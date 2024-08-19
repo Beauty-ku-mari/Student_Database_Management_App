@@ -1,0 +1,16 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\kbeau\\OneDrive\\Desktop\\mysql-connector-j-8.1.0\\mysql-connector-j-8.1.0.jar",
+            "c:\\Users\\kbeau\\OneDrive\\Desktop\\rs2xml.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\kbeau\\OneDrive\\Desktop\\mysql-connector-j-8.1.0\\mysql-connector-j-8.1.0.jar"
+        ]
+    },
+    "cSpell.words": [
+        "studentdata"
+    ]
+}
