@@ -7,3 +7,6 @@ import javax.swing.JOptionPane;
 
 public class DataBaseConnection {
     public static Connection dbConn() {
+String url = "jdbc:mysql://localhost:3306/studentdata";
+        String user = "root";
+ String pass = "8252388401";
