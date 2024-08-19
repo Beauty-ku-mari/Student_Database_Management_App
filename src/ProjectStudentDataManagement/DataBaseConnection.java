@@ -14,4 +14,10 @@ String url = "jdbc:mysql://localhost:3306/studentdata";
             Connection conn = DriverManager.getConnection(url, user, pass);
 System.out.println("suceess");
             return conn;
- }
+ }catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Connection Failed");
+            e.printStackTrace();
+            return null;
+        }
+    }
+}
