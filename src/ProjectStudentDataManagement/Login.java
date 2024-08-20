@@ -19,3 +19,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
 
+public class Login {
+    private JFrame loginsdm;
+    private JTextField tf1;
