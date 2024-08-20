@@ -22,3 +22,5 @@ import java.awt.event.ActionEvent;
 public class Login {
     private JFrame loginsdm;
     private JTextField tf1;
+private JPasswordField tf2;
+    Connection sdm;
