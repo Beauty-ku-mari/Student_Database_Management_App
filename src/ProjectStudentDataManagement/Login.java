@@ -24,3 +24,5 @@ public class Login {
     private JTextField tf1;
 private JPasswordField tf2;
     Connection sdm;
+public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
