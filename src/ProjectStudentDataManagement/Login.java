@@ -51,3 +51,5 @@ loginsdm.setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unn
 tf1 = new JTextField();
         tf1.setBackground(new Color(175, 238, 238));
         tf1.setBounds(117, 173, 265, 41);
+loginsdm.getContentPane().add(tf1);
+        tf1.setColumns(10);
