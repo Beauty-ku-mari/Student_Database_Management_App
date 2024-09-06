@@ -43,3 +43,5 @@ public class Login {
         loginsdm = new JFrame();
         loginsdm.getContentPane().setBackground(new Color(0, 0, 0));
         loginsdm.setTitle("STUDENT DATA MANAGEMENT Login\r\n");
+loginsdm.setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unnamed.png"));
+        loginsdm.setBounds(100, 110, 858, 559);
