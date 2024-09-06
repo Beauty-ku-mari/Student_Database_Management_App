@@ -45,3 +45,5 @@ public class Login {
         loginsdm.setTitle("STUDENT DATA MANAGEMENT Login\r\n");
 loginsdm.setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unnamed.png"));
         loginsdm.setBounds(100, 110, 858, 559);
+ loginsdm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        loginsdm.getContentPane().setLayout(null);
