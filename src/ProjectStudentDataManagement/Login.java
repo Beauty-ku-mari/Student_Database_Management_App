@@ -1,4 +1,3 @@
-
 package ProjectStudentDataManagement;
 
 import java.awt.EventQueue;
@@ -18,11 +17,3 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
-
-public class Login {
-    private JFrame loginsdm;
-    private JTextField tf1;
-private JPasswordField tf2;
-    Connection sdm;
-public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
