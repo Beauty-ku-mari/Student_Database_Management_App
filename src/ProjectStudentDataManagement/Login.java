@@ -47,3 +47,7 @@ loginsdm.setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unn
         loginsdm.setBounds(100, 110, 858, 559);
  loginsdm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         loginsdm.getContentPane().setLayout(null);
+
+tf1 = new JTextField();
+        tf1.setBackground(new Color(175, 238, 238));
+        tf1.setBounds(117, 173, 265, 41);
