@@ -59,3 +59,7 @@ JLabel lblNewLabel = new JLabel("Enter Username");
  lblNewLabel.setForeground(new Color(135, 206, 250));
         lblNewLabel.setBounds(118, 131, 233, 41);
         loginsdm.getContentPane().add(lblNewLabel);
+
+JLabel lblEnterPassword = new JLabel("Enter Password");
+        lblEnterPassword.setFont(new Font("Tahoma", Font.BOLD, 20));
+        lblEnterPassword.setForeground(new Color(135, 206, 250));
