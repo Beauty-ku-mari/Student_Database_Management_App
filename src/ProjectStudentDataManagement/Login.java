@@ -17,3 +17,29 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
+public class Login {
+    private JFrame loginsdm;
+    private JTextField tf1;
+    private JPasswordField tf2;
+    Connection sdm;
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    Login window = new Login();
+                    window.loginsdm.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+ public Login() {
+        sdm = DataBaseConnection.dbConn();
+        initialize();
+    }
+ private void initialize() {
+        loginsdm = new JFrame();
+        loginsdm.getContentPane().setBackground(new Color(0, 0, 0));
+        loginsdm.setTitle("STUDENT DATA MANAGEMENT Login\r\n");
