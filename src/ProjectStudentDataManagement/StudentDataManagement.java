@@ -50,16 +50,15 @@ public class StudentDataManagement extends JFrame {
     JRadioButton r4, r5;
     JComboBox comboBox;
 
- private JTextField tf10;
+    private JTextField tf10;
     private JTextField tf11;
     private JTextField tf12;
-
 
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-StudentDataManagement frame = new StudentDataManagement();
+                    StudentDataManagement frame = new StudentDataManagement();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -78,6 +77,7 @@ StudentDataManagement frame = new StudentDataManagement();
             comboBox.addItem(rs.getString("FirstName"));
         }
     }
+
 public StudentDataManagement() {
         conn = DataBaseConnection.dbConn();
         setFont(new Font("Dialog", Font.BOLD, 18));
@@ -108,4 +108,10 @@ tf1 = new JTextField();
         tf1.setBounds(175, 103, 190, 33);
         contentPane.add(tf1);
         tf1.setColumns(10);
+
+JLabel lblLastName = new JLabel("Last Name");
+        lblLastName.setForeground(new Color(0, 128, 128));
+        lblLastName.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        lblLastName.setBounds(43, 169, 104, 24);
+        contentPane.add(lblLastName);
 
