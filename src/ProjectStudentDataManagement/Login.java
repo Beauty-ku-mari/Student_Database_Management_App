@@ -103,3 +103,7 @@ b.setBounds(158, 361, 157, 41);
 JLabel lblNewLabel_1 = new JLabel("");
         lblNewLabel_1.setIcon(new ImageIcon("resources/images/b5.jpg"));
         lblNewLabel_1.setBounds(497, 0, 357, 416);
+ loginsdm.getContentPane().add(lblNewLabel_1);
+
+        JLabel lblNewLabel_2 = new JLabel("STUDENT DATA MANAGEMENT");
+        lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 24));
