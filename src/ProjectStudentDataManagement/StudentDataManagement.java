@@ -59,3 +59,11 @@ public class StudentDataManagement extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
+StudentDataManagement frame = new StudentDataManagement();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
