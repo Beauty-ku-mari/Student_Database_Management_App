@@ -78,3 +78,7 @@ StudentDataManagement frame = new StudentDataManagement();
             comboBox.addItem(rs.getString("FirstName"));
         }
     }
+public StudentDataManagement() {
+        conn = DataBaseConnection.dbConn();
+        setFont(new Font("Dialog", Font.BOLD, 18));
+        setBackground(SystemColor.activeCaption);
