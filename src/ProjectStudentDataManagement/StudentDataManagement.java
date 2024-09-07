@@ -94,3 +94,9 @@ setContentPane(contentPane);
 JLabel lblNewLabel = new JLabel("STUDENT    DATA    MANAGEMENT");
         lblNewLabel.setForeground(new Color(95, 158, 160));
         lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 36));
+ lblNewLabel.setBounds(192, 28, 642, 44);
+        contentPane.add(lblNewLabel);
+
+ JLabel lblNewLabel_1 = new JLabel("First Name");
+        lblNewLabel_1.setForeground(new Color(0, 128, 128));
+        lblNewLabel_1.setBackground(new Color(0, 128, 128));
