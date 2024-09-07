@@ -46,3 +46,6 @@ public class StudentDataManagement extends JFrame {
     private JTextField tf9;
     private JTextField tf4;
     private JTable table;
+    Connection conn;
+    JRadioButton r4, r5;
+    JComboBox comboBox;
