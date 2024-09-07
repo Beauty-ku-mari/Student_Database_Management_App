@@ -33,3 +33,16 @@ import java.sql.Statement;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+
+public class StudentDataManagement extends JFrame {
+    private JPanel contentPane;
+    private JTextField tf1;
+    private JTextField tf2;
+    private JTextField tf3;
+    private JTextField tf5;
+    private JTextField tf6;
+    private JTextField tf7;
+    private JTextField tf8;
+    private JTextField tf9;
+    private JTextField tf4;
+    private JTable table;
