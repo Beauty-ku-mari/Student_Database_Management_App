@@ -107,3 +107,8 @@ JLabel lblNewLabel_1 = new JLabel("");
 
         JLabel lblNewLabel_2 = new JLabel("STUDENT DATA MANAGEMENT");
         lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 24));
+lblNewLabel_2.setForeground(new Color(0, 255, 255));
+        lblNewLabel_2.setBounds(33, 38, 414, 50);
+        loginsdm.getContentPane().add(lblNewLabel_2);
+    }
+}
