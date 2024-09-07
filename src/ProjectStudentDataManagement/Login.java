@@ -82,3 +82,9 @@ String q = "SELECT * from login where username = ? and pass = ?";
                 try {
 PreparedStatement ps = sdm.prepareStatement(q);
                     ps.setString(1, tf1.getText());
+ps.setString(2, String.valueOf(tf2.getPassword()));
+                    ResultSet rs = ps.executeQuery();
+                    if (rs.next()) {
+ JOptionPane.showMessageDialog(null, "Welcome to Student Data Management");
+                        new StudentDataManagement().setVisible(true);
+                    } else {
