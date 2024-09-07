@@ -49,3 +49,13 @@ public class StudentDataManagement extends JFrame {
     Connection conn;
     JRadioButton r4, r5;
     JComboBox comboBox;
+
+ private JTextField tf10;
+    private JTextField tf11;
+    private JTextField tf12;
+
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
