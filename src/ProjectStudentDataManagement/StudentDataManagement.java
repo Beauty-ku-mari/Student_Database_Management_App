@@ -103,3 +103,9 @@ JLabel lblNewLabel = new JLabel("STUDENT    DATA    MANAGEMENT");
 lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
         lblNewLabel_1.setBounds(43, 104, 104, 33);
         contentPane.add(lblNewLabel_1);
+
+tf1 = new JTextField();
+        tf1.setBounds(175, 103, 190, 33);
+        contentPane.add(tf1);
+        tf1.setColumns(10);
+
