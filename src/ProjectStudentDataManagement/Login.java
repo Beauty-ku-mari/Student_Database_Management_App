@@ -88,3 +88,12 @@ ps.setString(2, String.valueOf(tf2.getPassword()));
  JOptionPane.showMessageDialog(null, "Welcome to Student Data Management");
                         new StudentDataManagement().setVisible(true);
                     } else {
+ JOptionPane.showMessageDialog(null, "Username / Password Invalid!");
+                    }
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
+ b.setForeground(new Color(0, 0, 0));
+        b.setBackground(new Color(30, 144, 255));
