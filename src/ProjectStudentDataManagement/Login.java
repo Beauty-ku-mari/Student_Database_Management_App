@@ -66,3 +66,6 @@ JLabel lblEnterPassword = new JLabel("Enter Password");
 lblEnterPassword.setBounds(117, 259, 198, 33);
         loginsdm.getContentPane().add(lblEnterPassword);
 
+ tf2 = new JPasswordField();
+        tf2.setBackground(new Color(175, 238, 238));
+        tf2.setBounds(117, 292, 265, 41);
