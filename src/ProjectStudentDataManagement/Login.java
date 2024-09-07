@@ -78,3 +78,7 @@ JButton b = new JButton("Login");
         b.setFont(new Font("Tahoma", Font.BOLD, 20));
 b.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+String q = "SELECT * from login where username = ? and pass = ?";
+                try {
+PreparedStatement ps = sdm.prepareStatement(q);
+                    ps.setString(1, tf1.getText());
