@@ -86,3 +86,6 @@ setTitle("Student Data Management");
         setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unnamed.png"));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 1273, 680);
+contentPane = new JPanel();
+        contentPane.setBackground(new Color(176, 224, 230));
+        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
