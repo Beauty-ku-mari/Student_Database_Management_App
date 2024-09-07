@@ -115,3 +115,9 @@ JLabel lblLastName = new JLabel("Last Name");
         lblLastName.setBounds(43, 169, 104, 24);
         contentPane.add(lblLastName);
 
+tf2 = new JTextField();
+        tf2.setColumns(10);
+        tf2.setBounds(175, 166, 190, 33);
+        contentPane.add(tf2);
+
+
