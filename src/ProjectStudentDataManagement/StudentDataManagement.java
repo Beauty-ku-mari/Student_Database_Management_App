@@ -73,3 +73,8 @@ StudentDataManagement frame = new StudentDataManagement();
         String query = "SELECT * from studentdatamgmt";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query);
+
+ while (rs.next()) {
+            comboBox.addItem(rs.getString("FirstName"));
+        }
+    }
