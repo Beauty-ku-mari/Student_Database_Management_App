@@ -89,3 +89,8 @@ setTitle("Student Data Management");
 contentPane = new JPanel();
         contentPane.setBackground(new Color(176, 224, 230));
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+setContentPane(contentPane);
+        contentPane.setLayout(null);
+JLabel lblNewLabel = new JLabel("STUDENT    DATA    MANAGEMENT");
+        lblNewLabel.setForeground(new Color(95, 158, 160));
+        lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 36));
