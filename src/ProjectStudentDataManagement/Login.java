@@ -97,3 +97,5 @@ ps.setString(2, String.valueOf(tf2.getPassword()));
         });
  b.setForeground(new Color(0, 0, 0));
         b.setBackground(new Color(30, 144, 255));
+b.setBounds(158, 361, 157, 41);
+        loginsdm.getContentPane().add(b);
