@@ -82,3 +82,7 @@ public StudentDataManagement() {
         conn = DataBaseConnection.dbConn();
         setFont(new Font("Dialog", Font.BOLD, 18));
         setBackground(SystemColor.activeCaption);
+setTitle("Student Data Management");
+        setIconImage(Toolkit.getDefaultToolkit().getImage("resources/images/unnamed.png"));
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setBounds(100, 100, 1273, 680);
