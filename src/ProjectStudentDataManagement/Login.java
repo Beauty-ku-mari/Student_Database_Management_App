@@ -17,6 +17,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.awt.event.ActionEvent;
+
 public class Login {
     private JFrame loginsdm;
     private JTextField tf1;
@@ -35,11 +36,13 @@ public class Login {
             }
         });
     }
+
  public Login() {
         sdm = DataBaseConnection.dbConn();
         initialize();
     }
- private void initialize() {
+
+private void initialize() {
         loginsdm = new JFrame();
         loginsdm.getContentPane().setBackground(new Color(0, 0, 0));
         loginsdm.setTitle("STUDENT DATA MANAGEMENT Login\r\n");
@@ -69,3 +72,7 @@ lblEnterPassword.setBounds(117, 259, 198, 33);
  tf2 = new JPasswordField();
         tf2.setBackground(new Color(175, 238, 238));
         tf2.setBounds(117, 292, 265, 41);
+loginsdm.getContentPane().add(tf2);
+
+JButton b = new JButton("Login");
+        b.setFont(new Font("Tahoma", Font.BOLD, 20));
