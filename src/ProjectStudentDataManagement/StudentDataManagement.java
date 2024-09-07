@@ -67,3 +67,9 @@ StudentDataManagement frame = new StudentDataManagement();
             }
         });
     }
+
+@SuppressWarnings("unchecked")
+    void addItemToComboBox() throws SQLException {
+        String query = "SELECT * from studentdatamgmt";
+        Statement stmt = conn.createStatement();
+        ResultSet rs = stmt.executeQuery(query);
