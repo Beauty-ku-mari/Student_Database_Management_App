@@ -99,3 +99,7 @@ ps.setString(2, String.valueOf(tf2.getPassword()));
         b.setBackground(new Color(30, 144, 255));
 b.setBounds(158, 361, 157, 41);
         loginsdm.getContentPane().add(b);
+
+JLabel lblNewLabel_1 = new JLabel("");
+        lblNewLabel_1.setIcon(new ImageIcon("resources/images/b5.jpg"));
+        lblNewLabel_1.setBounds(497, 0, 357, 416);
