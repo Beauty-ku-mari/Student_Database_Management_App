@@ -131,3 +131,6 @@ JLabel lblEmail = new JLabel("Email");
         tf3.setBounds(175, 229, 190, 33);
         contentPane.add(tf3);
 
+JLabel lblCourse = new JLabel("Course");
+        lblCourse.setForeground(new Color(0, 128, 128));
+        lblCourse.setFont(new Font("Tahoma", Font.PLAIN, 18));
