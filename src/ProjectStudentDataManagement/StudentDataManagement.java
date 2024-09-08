@@ -126,4 +126,8 @@ JLabel lblEmail = new JLabel("Email");
         lblEmail.setBounds(43, 235, 104, 24);
         contentPane.add(lblEmail);
 
+ tf3 = new JTextField();
+        tf3.setColumns(10);
+        tf3.setBounds(175, 229, 190, 33);
+        contentPane.add(tf3);
 
