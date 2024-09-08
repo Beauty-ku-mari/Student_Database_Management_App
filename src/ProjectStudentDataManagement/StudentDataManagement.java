@@ -164,3 +164,10 @@ r4.setBackground(new Color(173, 216, 230));
  ButtonGroup bg = new ButtonGroup(); 
         bg.add(r4);
         bg.add(r5);
+
+JButton btnNewButton = new JButton("Load");
+        btnNewButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                showData();
+            }
+    });
