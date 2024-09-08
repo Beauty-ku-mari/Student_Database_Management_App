@@ -134,3 +134,12 @@ JLabel lblEmail = new JLabel("Email");
 JLabel lblCourse = new JLabel("Course");
         lblCourse.setForeground(new Color(0, 128, 128));
         lblCourse.setFont(new Font("Tahoma", Font.PLAIN, 18));
+lblCourse.setBounds(43, 297, 104, 24);
+        contentPane.add(lblCourse);
+
+JComboBox<String> comboBox = new JComboBox<>();
+        comboBox.setModel(new DefaultComboBoxModel<>(new String[]{"Select", "MCA", "MBA", "B.TECH", "BCA", "BBA"}));
+        comboBox.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        comboBox.setBounds(175, 292, 190, 33);
+        contentPane.add(comboBox);
+
