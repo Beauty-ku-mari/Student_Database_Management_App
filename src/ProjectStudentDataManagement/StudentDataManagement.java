@@ -207,3 +207,7 @@ scrollPane.setViewportView(table);
                 }
             }
         });
+btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        btnNewButton_1.setBounds(482, 510, 89, 33);
+        contentPane.add(btnNewButton_1);
+    }
