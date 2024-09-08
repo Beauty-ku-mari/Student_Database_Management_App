@@ -192,3 +192,8 @@ scrollPane.setViewportView(table);
         btnNewButton_1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
+ String query = "INSERT INTO studentdatamgmt(FirstName, LastName, Email, Course, Gender) VALUES (?, ?, ?, ?, ?)";
+                    PreparedStatement pst = conn.prepareStatement(query);
+                    pst.setString(1, tf1.getText());
+                    pst.setString(2, tf2.getText());
+                    pst.setString(3, tf3.getText());
