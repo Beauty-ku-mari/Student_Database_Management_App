@@ -120,4 +120,10 @@ tf2 = new JTextField();
         tf2.setBounds(175, 166, 190, 33);
         contentPane.add(tf2);
 
+JLabel lblEmail = new JLabel("Email");
+        lblEmail.setForeground(new Color(0, 128, 128));
+        lblEmail.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        lblEmail.setBounds(43, 235, 104, 24);
+        contentPane.add(lblEmail);
+
 
