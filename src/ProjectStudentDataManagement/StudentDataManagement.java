@@ -148,3 +148,6 @@ JLabel lblGender = new JLabel("Gender");
         lblGender.setFont(new Font("Tahoma", Font.PLAIN, 18));
         lblGender.setBounds(43, 354, 104, 24);
         contentPane.add(lblGender);
+
+JRadioButton r4 = new JRadioButton("Male");
+        r4.setFont(new Font("Tahoma", Font.PLAIN, 18));
