@@ -211,3 +211,9 @@ btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
         btnNewButton_1.setBounds(482, 510, 89, 33);
         contentPane.add(btnNewButton_1);
     }
+
+private void showData() {
+        String query = "SELECT * FROM studentdatamgmt";
+        try (PreparedStatement ps = conn.prepareStatement(query);
+             ResultSet rs = ps.executeQuery()) {
+
