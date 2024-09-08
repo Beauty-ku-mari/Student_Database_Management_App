@@ -197,3 +197,13 @@ scrollPane.setViewportView(table);
                     pst.setString(1, tf1.getText());
                     pst.setString(2, tf2.getText());
                     pst.setString(3, tf3.getText());
+ pst.setString(4, comboBox.getSelectedItem().toString());
+                    pst.setString(5, r4.isSelected() ? "Male" : "Female");
+                    pst.executeUpdate();
+                    JOptionPane.showMessageDialog(null, "Data Saved");
+                    showData();
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage());
+                }
+            }
+        });
