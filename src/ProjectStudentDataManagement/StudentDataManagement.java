@@ -161,3 +161,6 @@ r4.setBackground(new Color(173, 216, 230));
         r5.setBounds(281, 351, 104, 33);
         contentPane.add(r5);
 
+ ButtonGroup bg = new ButtonGroup(); 
+        bg.add(r4);
+        bg.add(r5);
