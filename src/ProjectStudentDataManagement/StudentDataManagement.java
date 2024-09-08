@@ -143,3 +143,8 @@ JComboBox<String> comboBox = new JComboBox<>();
         comboBox.setBounds(175, 292, 190, 33);
         contentPane.add(comboBox);
 
+JLabel lblGender = new JLabel("Gender");
+        lblGender.setForeground(new Color(0, 128, 128));
+        lblGender.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        lblGender.setBounds(43, 354, 104, 24);
+        contentPane.add(lblGender);
