@@ -154,3 +154,10 @@ JRadioButton r4 = new JRadioButton("Male");
 r4.setBackground(new Color(173, 216, 230));
         r4.setBounds(175, 351, 104, 33);
         contentPane.add(r4);
+
+ JRadioButton r5 = new JRadioButton("Female");
+        r5.setFont(new Font("Tahoma", Font.PLAIN, 18));
+ r5.setBackground(new Color(173, 216, 230));
+        r5.setBounds(281, 351, 104, 33);
+        contentPane.add(r5);
+
