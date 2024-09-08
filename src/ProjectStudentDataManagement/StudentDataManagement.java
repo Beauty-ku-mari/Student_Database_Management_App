@@ -171,3 +171,24 @@ JButton btnNewButton = new JButton("Load");
                 showData();
             }
     });
+ btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        btnNewButton.setBounds(505, 510, 116, 39);
+        contentPane.add(btnNewButton);
+
+JScrollPane scrollPane = new JScrollPane();
+        scrollPane.setBounds(483, 102, 718, 381);
+        contentPane.add(scrollPane);
+
+ table = new JTable();
+        table.setModel(new DefaultTableModel(
+            new Object[][]{},
+            new String[]{
+                "First Name", "Last Name", "Email", "Course", "Gender"
+            }
+        ));
+scrollPane.setViewportView(table);
+
+        JButton btnNewButton_1 = new JButton("Add");
+        btnNewButton_1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
