@@ -151,3 +151,6 @@ JLabel lblGender = new JLabel("Gender");
 
 JRadioButton r4 = new JRadioButton("Male");
         r4.setFont(new Font("Tahoma", Font.PLAIN, 18));
+r4.setBackground(new Color(173, 216, 230));
+        r4.setBounds(175, 351, 104, 33);
+        contentPane.add(r4);
